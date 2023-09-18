@@ -14,6 +14,7 @@ header {
     justify-content: center;
     box-shadow: 0 3px 3px rgba(0,0,0,.1);
     color: black;
+    background-color: white;
 }
 
 .divContainer {
@@ -100,4 +101,97 @@ a {
 
 header li a:hover{
     color: rgb(0, 107, 0);
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.first-section {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+.divPresent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divPresent-left {
+    width: 50%;
+    height: 100%;
+}
+
+.divPresent-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.divPresent-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E3932;
+}
+
+.divPresent-right h2 {
+    font-size: 50px;
+    font-weight: 700;
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+
+.second-section {
+    width: 85%;
+    margin-top: 30px;
+}
+
+.divPresent2 {
+    background-color: #d4e9e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #00754a;
+}
+
+.div-text h2 {
+    font-size: 50px;
+    width: 480px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.div-text p {
+    font-size: 20px;
+}
+
+.div-text a {
+    color: #00754a;
+    border: 1px solid #00754a;
+    padding: 8px 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.div-img {
+    width: 50%;
 }
